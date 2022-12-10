@@ -4,6 +4,7 @@ import Header from './Header';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Routes, Route } from 'react-router-dom';
 import Main from './Main';
+import Menu from './Menu';
 
 function App() {
   return (

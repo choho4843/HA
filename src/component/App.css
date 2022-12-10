@@ -22,3 +22,30 @@
   text-decoration: none;
   color: darkgray;
 }
+
+.componentBox {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel {
+  width: 500px;
+  height: 841px;
+  margin: 0 auto;
+}
+
+.L-text {
+  display: block;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.S-text {
+  display: block;
+  padding-top: 30px;
+  font-size: x-small;
+  color: darkgrey;
+}
