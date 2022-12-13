@@ -1,7 +1,4 @@
-.App {
-  text-align: left;
-}
-
+/* 헤더 부분 CSS*/
 .nav-items {
   list-style: none;
   margin: 0 auto;
@@ -23,21 +20,13 @@
   color: darkgray;
 }
 
-.componentBox {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-.carousel {
-  width: 500px;
-  height: 841px;
+/* 메인 페이지 CSS*/
+ .carousel { /* 첫번째 사진 */
+  width: 1500px;
+  height: 600px;
   margin: 0 auto;
 }
-
-.L-text {
+.L-text { /* 첫번째 사진 내용글*/
   display: block;
   font-size: xx-large;
   font-weight: bold;
@@ -49,3 +38,71 @@
   font-size: x-small;
   color: darkgrey;
 }
+.mainplayer{ /*커뮤니티 영상*/
+  position: absolute;
+  top: 120%;
+  line-height: 1.95;
+  text-align: center;
+}
+.player_text {  /*커뮤니티 영상 소개*/
+  position: absolute;
+  top: 130%;
+  font-size: 30px;
+  line-height: 1.95;
+  color: black;
+  text-align: center;
+  padding-left: 1450px;
+}
+.ad_box {  /*광고 사진*/  
+  position: absolute;          
+  padding-left: 50%;
+  top: 204%
+}
+.ad_text {  /*광고 내용*/
+  position: absolute;
+  top: 240%;
+  font-size: 30px;
+  line-height: 1.95;
+  color: black;
+  text-align: center;
+  padding-left: 100px;
+}
+
+/*헬쓰 러닝 페이지 CSS*/
+.hl_main{   /*전체 페이지 가운데정렬*/
+  padding-left: 600px;
+}
+.hl_main1 { /*헬쓰러닝 첫번째 글자*/
+  position: absolute;
+  top: 20%;
+  font-size: 40px;
+  line-height: 1.95;
+  color: black;
+  text-align: center;
+  padding-left: 480px;
+}
+.hl_main2 {  /*헬쓰러닝 운동설명*/
+  position: absolute;
+  top: 30%;
+  font-size: 17px;
+  line-height: 1.95;
+  color: black;
+  padding-left: 280px;
+  text-align: center;
+
+}
+.hl_player { /*헬쓰러닝 동영상*/
+  position: absolute;
+  top: 50%;
+  line-height: 1.95;
+}
+.hl_main3 { /*헬쓰러닝 운동자세 설명*/
+  position: absolute;
+  top: 120%;
+  font-size: 17px;
+  line-height: 1.95;
+  color: black;
+  padding-left: 170px;
+  text-align: center;
+}
+

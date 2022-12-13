@@ -20,7 +20,7 @@ class Header extends Component {
                        
                     </li>
                     <li className="nav-item">
-                        <Link to={'/deposit'}>HealthCommunity</Link>
+                        <Link to={'/Benchpress'}>Benchpress</Link>
                     </li>
                     <li className="nav-item">
                         <Link to={'/withdraw'}>Commicial</Link>
