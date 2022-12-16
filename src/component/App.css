@@ -15,59 +15,99 @@
 }
 
 .nav-item > a {
-  font-size: small;
+  font-size: large;
   text-decoration: none;
   color: darkgray;
 }
 
+.nav-item1 {
+  display: inline-block;
+  height: 80px;
+  padding: 0 100px;
+  text-align: right;
+  min-width: 80px;
+  margin: 0 30px;
+  line-height: 80px;
+}
 /* 메인 페이지 CSS*/
  .carousel { /* 첫번째 사진 */
-  width: 1500px;
-  height: 600px;
+  width: 2400px;
+  height: 500px;
   margin: 0 auto;
-}
-.L-text { /* 첫번째 사진 내용글*/
-  display: block;
-  font-size: xx-large;
-  font-weight: bold;
-}
-
-.S-text {
-  display: block;
-  padding-top: 30px;
-  font-size: x-small;
-  color: darkgrey;
 }
 .mainplayer{ /*커뮤니티 영상*/
   position: absolute;
-  top: 120%;
+  top: 170%;
   line-height: 1.95;
   text-align: center;
 }
 .player_text {  /*커뮤니티 영상 소개*/
   position: absolute;
-  top: 130%;
+  top: 175%;
   font-size: 30px;
   line-height: 1.95;
   color: black;
   text-align: center;
   padding-left: 1450px;
 }
-.ad_box {  /*광고 사진*/  
-  position: absolute;          
-  padding-left: 50%;
-  top: 204%
-}
-.ad_text {  /*광고 내용*/
-  position: absolute;
-  top: 240%;
-  font-size: 30px;
-  line-height: 1.95;
-  color: black;
-  text-align: center;
-  padding-left: 100px;
-}
 
+.ad_box{ /*광고내용*/
+  position: absolute;
+  top: 260%;
+  padding-left: 10%;
+  margin-left: auto;
+  align-items: left;
+}
+.ad_box1{ /*광고내용*/
+  position: absolute;
+  top: 260%;
+  padding-left: 10%;
+  align-items: center;
+  margin-inline: 30%;
+}
+.ad_box2{ /*광고내용*/
+  position: absolute;
+  top: 260%;
+  padding-left: 10%;
+  align-items: center;
+  margin-inline: 61%;
+
+}
+.modal-content {
+height: 800px;
+width: 800px;
+top: 20%;
+}
+.learning1 {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+}
+.learning2 {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+}
+.learning3 {
+  position: absolute;
+  top: 10%;
+  left: 70%;
+}
+.learning4 {
+  position: absolute;
+  top: 70%;
+  padding-left: 0%;
+}
+.learning5 {
+  position: absolute;
+  top: 70%;
+  padding-left: 35%;
+}
+.learning6 {
+  position: absolute;
+  top: 70%;
+  padding-left: 70%;
+}
 /*헬쓰 러닝 페이지 CSS*/
 .hl_main{   /*전체 페이지 가운데정렬*/
   padding-left: 600px;
