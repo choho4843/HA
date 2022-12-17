@@ -14,7 +14,7 @@
   line-height: 80px;
 }
 
-.nav-item > a {
+.nav-item>a {
   font-size: large;
   text-decoration: none;
   color: darkgray;
@@ -29,19 +29,24 @@
   margin: 0 30px;
   line-height: 80px;
 }
+
 /* 메인 페이지 CSS*/
- .carousel { /* 첫번째 사진 */
-  width: 2400px;
+.carousel {/* 첫번째 사진 */
+  width: 2525px;
   height: 500px;
   margin: 0 auto;
 }
-.mainplayer{ /*커뮤니티 영상*/
+
+.mainplayer {
+  /*커뮤니티 영상*/
   position: absolute;
   top: 170%;
   line-height: 1.95;
   text-align: center;
 }
-.player_text {  /*커뮤니티 영상 소개*/
+
+.player_text {
+  /*커뮤니티 영상 소개*/
   position: absolute;
   top: 175%;
   font-size: 30px;
@@ -51,21 +56,26 @@
   padding-left: 1450px;
 }
 
-.ad_box{ /*광고내용*/
+.ad_box {
+  /*광고내용*/
   position: absolute;
   top: 260%;
   padding-left: 10%;
   margin-left: auto;
   align-items: left;
 }
-.ad_box1{ /*광고내용*/
+
+.ad_box1 {
+  /*광고내용*/
   position: absolute;
   top: 260%;
   padding-left: 10%;
   align-items: center;
   margin-inline: 30%;
 }
-.ad_box2{ /*광고내용*/
+
+.ad_box2 {
+  /*광고내용*/
   position: absolute;
   top: 260%;
   padding-left: 10%;
@@ -73,76 +83,103 @@
   margin-inline: 61%;
 
 }
+
 .modal-content {
-height: 800px;
-width: 800px;
-top: 20%;
+  height: 800px;
+  width: 800px;
+  top: 20%;
 }
+
 .learning1 {
   position: absolute;
   top: 10%;
   left: 0%;
 }
+
 .learning2 {
   position: absolute;
   top: 10%;
   left: 35%;
 }
+
 .learning3 {
   position: absolute;
   top: 10%;
   left: 70%;
 }
+
 .learning4 {
   position: absolute;
   top: 70%;
-  padding-left: 0%;
+  left: 0%;
+
 }
+
+
 .learning5 {
   position: absolute;
   top: 70%;
-  padding-left: 35%;
+  left: 35%;
 }
+
 .learning6 {
   position: absolute;
   top: 70%;
-  padding-left: 70%;
+  left: 70%;
 }
+
 /*헬쓰 러닝 페이지 CSS*/
-.hl_main{   /*전체 페이지 가운데정렬*/
-  padding-left: 600px;
-}
-.hl_main1 { /*헬쓰러닝 첫번째 글자*/
+
+.hl_main1 {
+  /*헬쓰러닝 첫번째 글자*/
   position: absolute;
-  top: 20%;
   font-size: 40px;
   line-height: 1.95;
   color: black;
-  text-align: center;
-  padding-left: 480px;
+  left: 25%;
+  top:20%;
+ 
 }
-.hl_main2 {  /*헬쓰러닝 운동설명*/
+
+.hl_main2 {
+  /*헬쓰러닝 운동설명*/
   position: absolute;
   top: 30%;
   font-size: 17px;
   line-height: 1.95;
   color: black;
-  padding-left: 280px;
-  text-align: center;
+  left: 25%;
 
+  
 }
-.hl_player { /*헬쓰러닝 동영상*/
+
+.hl_player {
+  /*헬쓰러닝 동영상*/
   position: absolute;
   top: 50%;
   line-height: 1.95;
+  left: 25%;
 }
-.hl_main3 { /*헬쓰러닝 운동자세 설명*/
+
+.hl_main3 {
+  /*헬쓰러닝 운동자세 설명*/
   position: absolute;
   top: 120%;
   font-size: 17px;
   line-height: 1.95;
   color: black;
-  padding-left: 170px;
-  text-align: center;
+  left: 25%;
+ 
 }
-
+.side_bar1{
+  font-size: 25px;
+  color: darkgray;
+  text-decoration: underline;
+  line-height: 50px;
+}
+.side_bar2{
+  font-size: 20px;
+  color: burlywood;
+  line-height: 50px;
+  text-decoration: none;
+}

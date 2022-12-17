@@ -1,8 +1,10 @@
 import { Component } from "react";
 import ReactPlayer from "react-player"
+import { UncontrolledCollapse, Button, CardBody } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { UncontrolledCollapse, Button, CardBody } from 'reactstrap'
-class Benchpress extends Component {
+
+
+class Cabelfly extends Component {
     render() {
         return (
             <>
@@ -14,6 +16,7 @@ class Benchpress extends Component {
                     <br />
                     <br />
                     <br />
+
                     <Button color="white" id="toggle1">
                         <span className="side_bar1">∨&nbsp;&nbsp;가슴 운동</span>
                     </Button>
@@ -21,9 +24,9 @@ class Benchpress extends Component {
                         <CardBody>
                             <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;벤치프레스</b></Link><br />
                             <Link to={'/chestpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;체스트프레스</b></Link><br />
-                            <Link to={'/peckdeckfly'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;펙덱플라이</b></Link><br />
-                            <Link to={'/dips'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;딥스</b></Link><br />
-                            <Link to={'/cabelfly'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블 플라이</b></Link><br />
+                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;펙덱플라이</b></Link><br />
+                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;딥스</b></Link><br />
+                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블 플라이</b></Link><br />
                             <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;덤벨 프레스</b></Link><br />
                         </CardBody>
                     </UncontrolledCollapse>
@@ -95,24 +98,22 @@ class Benchpress extends Component {
                     </UncontrolledCollapse>
 
                 </div>
-                <div style={{ float: "right", width: "85%" }}>
+                <div style={{ float: "right", width: "85%", height: "120" }}>
                     <div className="hl_main">
                         <p className="hl_main1" >
-                            <h1>벤치프레스</h1>
+                            <h1>케이블플라이</h1>
                         </p>
 
                         <p className="hl_main2"  >
-
-                            벤치프레스는 대표적인 가슴 근육운동이다.<br />
-                            상체의 대근육 중 하나인 가슴근육의 두께와 넓이를 키우는 복합관절운동으로써,<br />
-                            주근육은 가슴근육이지만 팔과 어깨도 함께 사용하여 자세를 달리 잡으면<br />
-                            팔근육이나 어깨근육에도 보다 더 자극을 줄수 있는 운동이다.<br />
+                            케이블 플라이의 가장 큰 장점은 중량을 균형 잡을 필요가 없다는 것이다.<br /> 
+                            따라서 안정근이 아닌 흉근에만 모든 자극이 집중된다.<br/>
+                            Incline Cable Flye 대부분 사람은 상부/내측 흉근의 발달이 가장 더디다.
                         </p>
 
                         <p className="hl_player"  >
                             <ReactPlayer
                                 className="player"
-                                url={"https://www.youtube.com/watch?v=MxrdZrt6uQM"}
+                                url={"https://www.youtube.com/watch?v=fSX9jWOa0Mc"}
                                 playing controls
                                 width="1200px"
                                 height="800px"
@@ -122,17 +123,23 @@ class Benchpress extends Component {
                         </p>
 
                         <p className="hl_main3" >
-                            벤치프레스 자세는 벤치의 각도 조절을 통해 효과를 달리할수 있다. 일자 벤치를 그대로 이용하는것이 기본 동작이며,<br />
-                            이는 가슴근육을 골고루 발달시킬수 있다. 여기서 벤치를 위로 비스듬히 세워주는것은 인클라인 자세로써,<br />
-                            윗 근육 발달에 좋고 벤치를 더 아래로 하는것은 디클라인 자세로, 아랫근육발달에 좋다.
+                            양 쪽 팔을 쭉 편 상태에서 가슴을 모은다는 생각으로 <br />
 
+                            아래쪽으로 내려줍니다. <br />
+
+                            이 때 다른 힘의 개입을 최대한 방지하기 위해서,<br />
+
+                            몸의 무게 중심을 확실히 잡아주는 것이 좋습니다!<br />
                             <br />
-                            <br />
+                            허리를 굽히는 것도 괜찮은 자세입니다. <br/>
+
+                            한 쪽 발을 앞으로 내밀어 균형을 맞추는 것도 좋습니다.<br/>
+
+                            자세는 개인이 편하신대로 하시되<br/>
+
+                            가슴에 충분한 자극이 될 수 있도록 연습하시는 것이 좋습니다.<br/>
 
 
-                            기본 그립은 팔을 굽혀 바벨을 내렸을때 팔의 각도가 일자로 맞아떨어질 정도의 간격으로 넉넉하게 잡아줘야한다.<br />
-                            여기서 더 넓게 잡거나 더 좁게 잡으면 말했듯이 다른 근육의 자극이 높아지므로, <br />
-                            가슴근육의 자극에 집중하고 싶다면 기본 그립에 충실하여 잡아준다.
                         </p>
                     </div>
                 </div>
@@ -141,4 +148,4 @@ class Benchpress extends Component {
     }
 }
 
-export default Benchpress;
+export default Cabelfly;

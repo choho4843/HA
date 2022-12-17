@@ -1,8 +1,10 @@
 import { Component } from "react";
 import ReactPlayer from "react-player"
+import { UncontrolledCollapse, Button, CardBody } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { UncontrolledCollapse, Button, CardBody } from 'reactstrap'
-class Benchpress extends Component {
+
+
+class Chesthpress extends Component {
     render() {
         return (
             <>
@@ -14,6 +16,7 @@ class Benchpress extends Component {
                     <br />
                     <br />
                     <br />
+
                     <Button color="white" id="toggle1">
                         <span className="side_bar1">∨&nbsp;&nbsp;가슴 운동</span>
                     </Button>
@@ -21,9 +24,9 @@ class Benchpress extends Component {
                         <CardBody>
                             <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;벤치프레스</b></Link><br />
                             <Link to={'/chestpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;체스트프레스</b></Link><br />
-                            <Link to={'/peckdeckfly'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;펙덱플라이</b></Link><br />
-                            <Link to={'/dips'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;딥스</b></Link><br />
-                            <Link to={'/cabelfly'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블 플라이</b></Link><br />
+                            <Link to={'/dips'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;펙덱플라이</b></Link><br />
+                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;딥스</b></Link><br />
+                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블 플라이</b></Link><br />
                             <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;덤벨 프레스</b></Link><br />
                         </CardBody>
                     </UncontrolledCollapse>
@@ -95,24 +98,24 @@ class Benchpress extends Component {
                     </UncontrolledCollapse>
 
                 </div>
-                <div style={{ float: "right", width: "85%" }}>
+                <div style={{ float: "right", width: "85%", height: "120" }}>
                     <div className="hl_main">
                         <p className="hl_main1" >
-                            <h1>벤치프레스</h1>
+                            <h1>체스트프레스</h1>
                         </p>
 
                         <p className="hl_main2"  >
+                            체스트 프레스 머신은 가슴 근육을 키우는 가장 기본 적인 기구입니다.<br />
+                            벤치프레스가 훨신 효과가 좋지만 자세 숙지와 해당 자세가 어려운 헬린이는 절대 사용금지 입니다.<br />
+                            어깨, 팔(삼두) 등 부정확한 근육사용으로 부상을 입을 확률이 높기 때문입니다.<br />
+                            그렇기 때문에  초보는 무조건 머신으로 기술을 익히고 기본 근육량을 늘리시길 바랍니다.
 
-                            벤치프레스는 대표적인 가슴 근육운동이다.<br />
-                            상체의 대근육 중 하나인 가슴근육의 두께와 넓이를 키우는 복합관절운동으로써,<br />
-                            주근육은 가슴근육이지만 팔과 어깨도 함께 사용하여 자세를 달리 잡으면<br />
-                            팔근육이나 어깨근육에도 보다 더 자극을 줄수 있는 운동이다.<br />
                         </p>
 
                         <p className="hl_player"  >
                             <ReactPlayer
                                 className="player"
-                                url={"https://www.youtube.com/watch?v=MxrdZrt6uQM"}
+                                url={"https://www.youtube.com/watch?v=ppPQgmgpafM"}
                                 playing controls
                                 width="1200px"
                                 height="800px"
@@ -122,17 +125,14 @@ class Benchpress extends Component {
                         </p>
 
                         <p className="hl_main3" >
-                            벤치프레스 자세는 벤치의 각도 조절을 통해 효과를 달리할수 있다. 일자 벤치를 그대로 이용하는것이 기본 동작이며,<br />
-                            이는 가슴근육을 골고루 발달시킬수 있다. 여기서 벤치를 위로 비스듬히 세워주는것은 인클라인 자세로써,<br />
-                            윗 근육 발달에 좋고 벤치를 더 아래로 하는것은 디클라인 자세로, 아랫근육발달에 좋다.
-
+                            가동 범위가 정해져 있기 때문에  의자 높이 조절로 자세만 잡고 밀면 된다.<br />
+                            가슴의 수축감과 이완감을 잘 느낄수 있다.<br />
+                            가슴, 어깨, 삼두를 고루 발전시킬 수 있다.(어깨, 삼두를 중점 사용하는 것 주의)<br />
                             <br />
                             <br />
 
-
-                            기본 그립은 팔을 굽혀 바벨을 내렸을때 팔의 각도가 일자로 맞아떨어질 정도의 간격으로 넉넉하게 잡아줘야한다.<br />
-                            여기서 더 넓게 잡거나 더 좁게 잡으면 말했듯이 다른 근육의 자극이 높아지므로, <br />
-                            가슴근육의 자극에 집중하고 싶다면 기본 그립에 충실하여 잡아준다.
+                            체스트 프레스 운동을 진행하실 때 흉곽을열고 복부에 힘을주고 어깨를 패드에 고정시킨<br />
+                            후수축과 이완을 통해 대흉근(가슴)의 긴장을 유지하면서 운동을 해주셔야 합니다!!
                         </p>
                     </div>
                 </div>
@@ -141,4 +141,4 @@ class Benchpress extends Component {
     }
 }
 
-export default Benchpress;
+export default Chesthpress;

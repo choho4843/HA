@@ -1,8 +1,10 @@
 import { Component } from "react";
 import ReactPlayer from "react-player"
+import { UncontrolledCollapse, Button, CardBody } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { UncontrolledCollapse, Button, CardBody } from 'reactstrap'
-class Benchpress extends Component {
+
+
+class Dips extends Component {
     render() {
         return (
             <>
@@ -14,6 +16,7 @@ class Benchpress extends Component {
                     <br />
                     <br />
                     <br />
+
                     <Button color="white" id="toggle1">
                         <span className="side_bar1">∨&nbsp;&nbsp;가슴 운동</span>
                     </Button>
@@ -21,9 +24,9 @@ class Benchpress extends Component {
                         <CardBody>
                             <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;벤치프레스</b></Link><br />
                             <Link to={'/chestpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;체스트프레스</b></Link><br />
-                            <Link to={'/peckdeckfly'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;펙덱플라이</b></Link><br />
-                            <Link to={'/dips'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;딥스</b></Link><br />
-                            <Link to={'/cabelfly'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블 플라이</b></Link><br />
+                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;펙덱플라이</b></Link><br />
+                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;딥스</b></Link><br />
+                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블 플라이</b></Link><br />
                             <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;덤벨 프레스</b></Link><br />
                         </CardBody>
                     </UncontrolledCollapse>
@@ -95,24 +98,22 @@ class Benchpress extends Component {
                     </UncontrolledCollapse>
 
                 </div>
-                <div style={{ float: "right", width: "85%" }}>
+                <div style={{ float: "right", width: "85%", height: "120" }}>
                     <div className="hl_main">
                         <p className="hl_main1" >
-                            <h1>벤치프레스</h1>
+                            <h1>딥스</h1>
                         </p>
 
                         <p className="hl_main2"  >
+                            딥스 운동은 손목, 팔꿈치, 어깨 등의 관절이 운동에 관여하며, 관절을 튼튼하게 만드는데 도움이 된다.<br />
+                            또한, 코어 근육이 사용되기 때문에 견고한 상체를 만들 수 있으며 신체의 안정성을 더하고, 척추를 지지하며, 몸의 중심을 잡아줍니다.<br />
 
-                            벤치프레스는 대표적인 가슴 근육운동이다.<br />
-                            상체의 대근육 중 하나인 가슴근육의 두께와 넓이를 키우는 복합관절운동으로써,<br />
-                            주근육은 가슴근육이지만 팔과 어깨도 함께 사용하여 자세를 달리 잡으면<br />
-                            팔근육이나 어깨근육에도 보다 더 자극을 줄수 있는 운동이다.<br />
                         </p>
 
                         <p className="hl_player"  >
                             <ReactPlayer
                                 className="player"
-                                url={"https://www.youtube.com/watch?v=MxrdZrt6uQM"}
+                                url={"https://www.youtube.com/watch?v=pqn9koa_wrw"}
                                 playing controls
                                 width="1200px"
                                 height="800px"
@@ -122,17 +123,11 @@ class Benchpress extends Component {
                         </p>
 
                         <p className="hl_main3" >
-                            벤치프레스 자세는 벤치의 각도 조절을 통해 효과를 달리할수 있다. 일자 벤치를 그대로 이용하는것이 기본 동작이며,<br />
-                            이는 가슴근육을 골고루 발달시킬수 있다. 여기서 벤치를 위로 비스듬히 세워주는것은 인클라인 자세로써,<br />
-                            윗 근육 발달에 좋고 벤치를 더 아래로 하는것은 디클라인 자세로, 아랫근육발달에 좋다.
-
+                            딥스 운동은 딥스 바를 잡고 팔꿈치를 굽혀서 몸 전체를 아래로 이동시켰다가 팔을 펴서 몸을 위로 올려주는 동작입니다.<br />
+                            불필요한 동작, 부위의 개입을 줄이기 위해 다리 자세는 사진처럼 뒤로 모아주고 몸을 약간 아래로 숙인 각도로 운동을 수행하게 됩니다.<br/>
                             <br />
                             <br />
 
-
-                            기본 그립은 팔을 굽혀 바벨을 내렸을때 팔의 각도가 일자로 맞아떨어질 정도의 간격으로 넉넉하게 잡아줘야한다.<br />
-                            여기서 더 넓게 잡거나 더 좁게 잡으면 말했듯이 다른 근육의 자극이 높아지므로, <br />
-                            가슴근육의 자극에 집중하고 싶다면 기본 그립에 충실하여 잡아준다.
                         </p>
                     </div>
                 </div>
@@ -141,4 +136,4 @@ class Benchpress extends Component {
     }
 }
 
-export default Benchpress;
+export default Dips;

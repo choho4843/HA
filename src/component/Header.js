@@ -11,7 +11,7 @@ class Header extends Component {
                         <Link to={'/'} id="logo"><b>HealthAce</b></Link>
                     </li>
                     <li className="nav-item">
-                    <Link to={'/HealthLearning'} id="logo"><b>HealthAce</b></Link>
+                    <Link to={'/HealthLearning'} id="logo"><b>HealthLearning</b></Link>
                     </li>
                     <li className="nav-item">
                         <Link to={'/Community'}>Community</Link>
