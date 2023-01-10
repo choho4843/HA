@@ -49,10 +49,7 @@ class Section0 extends Component {
     render() {
         return (
                 <div>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+       
                 <UncontrolledCarousel items={items}/>
                 <br/>
                 

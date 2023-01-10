@@ -8,7 +8,7 @@ class Chesthpress extends Component {
     render() {
         return (
             <>
-                <div style={{ float: "left", width: "15%", paddingLeft: "3%" }}>
+                            <div style={{ float: "left", width: "15%", paddingLeft: "3%" }}>
                     <br />
                     <br />
                     <br />
@@ -16,7 +16,6 @@ class Chesthpress extends Component {
                     <br />
                     <br />
                     <br />
-
                     <Button color="white" id="toggle1">
                         <span className="side_bar1">∨&nbsp;&nbsp;가슴 운동</span>
                     </Button>
@@ -24,10 +23,10 @@ class Chesthpress extends Component {
                         <CardBody>
                             <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;벤치프레스</b></Link><br />
                             <Link to={'/chestpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;체스트프레스</b></Link><br />
-                            <Link to={'/dips'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;펙덱플라이</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;딥스</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블 플라이</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;덤벨 프레스</b></Link><br />
+                            <Link to={'/peckdeckfly'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;펙덱플라이</b></Link><br />
+                            <Link to={'/dips'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;딥스</b></Link><br />
+                            <Link to={'/cabelfly'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블 플라이</b></Link><br />
+                            <Link to={'/dumbbelpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;덤벨 프레스</b></Link><br />
                         </CardBody>
                     </UncontrolledCollapse>
                     <br />
@@ -36,10 +35,10 @@ class Chesthpress extends Component {
                     </Button>
                     <UncontrolledCollapse toggler="toggle2">
                         <CardBody>
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;스쿼트</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;레그익스텐션</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;레그프레스</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;덤벨런지</b></Link><br />
+                            <Link to={'/squat'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;스쿼트</b></Link><br />
+                            <Link to={'/legextension'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;레그익스텐션</b></Link><br />
+                            <Link to={'/legpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;레그프레스</b></Link><br />
+                            <Link to={'/dumbellunge'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;덤벨런지</b></Link><br />
                         </CardBody>
                     </UncontrolledCollapse>
                     <br />
@@ -48,10 +47,10 @@ class Chesthpress extends Component {
                     </Button>
                     <UncontrolledCollapse toggler="toggle4">
                         <CardBody>
-                            <Link to={'/chestpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;밀리터리프레스</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블리버스플라이</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;사이드레터럴레이즈</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;숄더프레스</b></Link><br />
+                            <Link to={'/militarypress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;밀리터리프레스</b></Link><br />
+                            <Link to={'/upright'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;업라이트로우</b></Link><br />
+                            <Link to={'/side'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;사이드레터럴레이즈</b></Link><br />
+                            <Link to={'/sholderpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;숄더프레스</b></Link><br />
                         </CardBody>
                     </UncontrolledCollapse>
                     <br />
@@ -60,12 +59,12 @@ class Chesthpress extends Component {
                     </Button>
                     <UncontrolledCollapse toggler="toggle3">
                         <CardBody>
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;턱걸이</b></Link><br />
-                            <Link to={'/chestpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;랫플다운</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;바벨로우</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;시티드로우</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블암플다운</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;데드리프트</b></Link><br />
+                            <Link to={'/pullup'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;턱걸이</b></Link><br />
+                            <Link to={'/letpull'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;랫플다운</b></Link><br />
+                            <Link to={'/barbellrow'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;바벨로우</b></Link><br />
+                            <Link to={'/seatedrow'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;시티드로우</b></Link><br />
+                            <Link to={'/cabledown'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블암플다운</b></Link><br />
+                            <Link to={'/dead'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;데드리프트</b></Link><br />
                         </CardBody>
                     </UncontrolledCollapse>
                     <br />
@@ -75,11 +74,12 @@ class Chesthpress extends Component {
                     </Button>
                     <UncontrolledCollapse toggler="toggle5">
                         <CardBody>
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;덤벨컬</b></Link><br />
-                            <Link to={'/chestpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;바벨컬</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;오버핸드 익스텐션</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;이지바컬</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;컨센트레이션컬</b></Link><br />
+                            <Link to={'/easybar'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;이지바컬</b></Link><br />
+                            <Link to={'/overhead'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;오버헤드 익스텐션</b></Link><br />
+                            <Link to={'/concentration'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;컨센트레이션컬</b></Link><br />
+                            <Link to={'/cabelpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블프레스다운</b></Link><br />
+                            <Link to={'/barbelcull'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;바벨컬</b></Link><br />
+
                         </CardBody>
                     </UncontrolledCollapse>
                     <br />
@@ -88,12 +88,12 @@ class Chesthpress extends Component {
                     </Button>
                     <UncontrolledCollapse toggler="toggle6">
                         <CardBody>
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;코브라스트레칭</b></Link><br />
-                            <Link to={'/chestpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;점핑잭</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;마운틴클라이머</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;사이드브릿지</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;플랭크</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;버피테스트</b></Link><br />
+                            <Link to={'/cobra'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;코브라스트레칭</b></Link><br />
+                            <Link to={'/jumping'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;점핑잭</b></Link><br />
+                            <Link to={'/mountain'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;마운틴클라이머</b></Link><br />
+                            <Link to={'/sidebridge'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;사이드브릿지</b></Link><br />
+                            <Link to={'/plank'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;플랭크</b></Link><br />
+                            <Link to={'/burpee'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;버피테스트</b></Link><br />
                         </CardBody>
                     </UncontrolledCollapse>
 

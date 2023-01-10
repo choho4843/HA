@@ -8,7 +8,7 @@ class Dumbbelpress extends Component {
     render() {
         return (
             <>
-                <div style={{ float: "left", width: "15%", paddingLeft: "3%" }}>
+                            <div style={{ float: "left", width: "15%", paddingLeft: "3%" }}>
                     <br />
                     <br />
                     <br />
@@ -16,7 +16,6 @@ class Dumbbelpress extends Component {
                     <br />
                     <br />
                     <br />
-
                     <Button color="white" id="toggle1">
                         <span className="side_bar1">∨&nbsp;&nbsp;가슴 운동</span>
                     </Button>
@@ -24,10 +23,10 @@ class Dumbbelpress extends Component {
                         <CardBody>
                             <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;벤치프레스</b></Link><br />
                             <Link to={'/chestpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;체스트프레스</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;펙덱플라이</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;딥스</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블 플라이</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;덤벨 프레스</b></Link><br />
+                            <Link to={'/peckdeckfly'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;펙덱플라이</b></Link><br />
+                            <Link to={'/dips'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;딥스</b></Link><br />
+                            <Link to={'/cabelfly'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블 플라이</b></Link><br />
+                            <Link to={'/dumbbelpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;덤벨 프레스</b></Link><br />
                         </CardBody>
                     </UncontrolledCollapse>
                     <br />
@@ -36,10 +35,10 @@ class Dumbbelpress extends Component {
                     </Button>
                     <UncontrolledCollapse toggler="toggle2">
                         <CardBody>
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;스쿼트</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;레그익스텐션</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;레그프레스</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;덤벨런지</b></Link><br />
+                            <Link to={'/squat'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;스쿼트</b></Link><br />
+                            <Link to={'/legextension'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;레그익스텐션</b></Link><br />
+                            <Link to={'/legpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;레그프레스</b></Link><br />
+                            <Link to={'/dumbellunge'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;덤벨런지</b></Link><br />
                         </CardBody>
                     </UncontrolledCollapse>
                     <br />
@@ -48,10 +47,10 @@ class Dumbbelpress extends Component {
                     </Button>
                     <UncontrolledCollapse toggler="toggle4">
                         <CardBody>
-                            <Link to={'/chestpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;밀리터리프레스</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블리버스플라이</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;사이드레터럴레이즈</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;숄더프레스</b></Link><br />
+                            <Link to={'/militarypress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;밀리터리프레스</b></Link><br />
+                            <Link to={'/upright'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;업라이트로우</b></Link><br />
+                            <Link to={'/side'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;사이드레터럴레이즈</b></Link><br />
+                            <Link to={'/sholderpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;숄더프레스</b></Link><br />
                         </CardBody>
                     </UncontrolledCollapse>
                     <br />
@@ -60,12 +59,12 @@ class Dumbbelpress extends Component {
                     </Button>
                     <UncontrolledCollapse toggler="toggle3">
                         <CardBody>
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;턱걸이</b></Link><br />
-                            <Link to={'/chestpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;랫플다운</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;바벨로우</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;시티드로우</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블암플다운</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;데드리프트</b></Link><br />
+                            <Link to={'/pullup'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;턱걸이</b></Link><br />
+                            <Link to={'/letpull'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;랫플다운</b></Link><br />
+                            <Link to={'/barbellrow'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;바벨로우</b></Link><br />
+                            <Link to={'/seatedrow'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;시티드로우</b></Link><br />
+                            <Link to={'/cabledown'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블암플다운</b></Link><br />
+                            <Link to={'/dead'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;데드리프트</b></Link><br />
                         </CardBody>
                     </UncontrolledCollapse>
                     <br />
@@ -75,11 +74,12 @@ class Dumbbelpress extends Component {
                     </Button>
                     <UncontrolledCollapse toggler="toggle5">
                         <CardBody>
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;덤벨컬</b></Link><br />
-                            <Link to={'/chestpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;바벨컬</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;오버핸드 익스텐션</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;이지바컬</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;컨센트레이션컬</b></Link><br />
+                            <Link to={'/easybar'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;이지바컬</b></Link><br />
+                            <Link to={'/overhead'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;오버헤드 익스텐션</b></Link><br />
+                            <Link to={'/concentration'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;컨센트레이션컬</b></Link><br />
+                            <Link to={'/cabelpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;케이블프레스다운</b></Link><br />
+                            <Link to={'/barbelcull'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;바벨컬</b></Link><br />
+
                         </CardBody>
                     </UncontrolledCollapse>
                     <br />
@@ -88,12 +88,12 @@ class Dumbbelpress extends Component {
                     </Button>
                     <UncontrolledCollapse toggler="toggle6">
                         <CardBody>
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;코브라스트레칭</b></Link><br />
-                            <Link to={'/chestpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;점핑잭</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;마운틴클라이머</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;사이드브릿지</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;플랭크</b></Link><br />
-                            <Link to={'/benchpress'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;버피테스트</b></Link><br />
+                            <Link to={'/cobra'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;코브라스트레칭</b></Link><br />
+                            <Link to={'/jumping'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;점핑잭</b></Link><br />
+                            <Link to={'/mountain'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;마운틴클라이머</b></Link><br />
+                            <Link to={'/sidebridge'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;사이드브릿지</b></Link><br />
+                            <Link to={'/plank'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;플랭크</b></Link><br />
+                            <Link to={'/burpee'} id="logo" className="side_bar2"><b>&nbsp;&nbsp;버피테스트</b></Link><br />
                         </CardBody>
                     </UncontrolledCollapse>
 
@@ -105,14 +105,14 @@ class Dumbbelpress extends Component {
                         </div>
 
                         <div className="hl_main2"  >
-                        덤벨 프레스는 덤벨을 들고 팔을 앞으로 미는 동작이다. 대흉근이 가장 많이 쓰이며, 팔 뒤 삼두근, 어깨의 전면 삼각근 등이 보조근으로 사용된다.<br/>
-                         긴 바를 사용하는 벤치프레스보다 가슴근육의 가동 범위가 넓어, 운동 효과도 더 크다. 근육을 더 많이 늘렸다 수축하기 때문이다.<br/>
+                            덤벨 프레스는 덤벨을 들고 팔을 앞으로 미는 동작이다. 대흉근이 가장 많이 쓰이며, 팔 뒤 삼두근, 어깨의 전면 삼각근 등이 보조근으로 사용된다.<br />
+                            긴 바를 사용하는 벤치프레스보다 가슴근육의 가동 범위가 넓어, 운동 효과도 더 크다. 근육을 더 많이 늘렸다 수축하기 때문이다.<br />
                         </div>
 
                         <p className="hl_player"  >
                             <ReactPlayer
                                 className="player"
-                                url={"https://www.youtube.com/watch?v=fSX9jWOa0Mc"}
+                                url={"https://www.youtube.com/watch?v=xTQL6jvVMNA"}
                                 playing controls
                                 width="1200px"
                                 height="800px"
@@ -122,21 +122,16 @@ class Dumbbelpress extends Component {
                         </p>
 
                         <div className="hl_main3" >
-                            양 쪽 팔을 쭉 편 상태에서 가슴을 모은다는 생각으로 <br />
-
-                            아래쪽으로 내려줍니다. <br />
-
-                            이 때 다른 힘의 개입을 최대한 방지하기 위해서,<br />
-
-                            몸의 무게 중심을 확실히 잡아주는 것이 좋습니다!<br />
+                            덤벨프레스 운동은 덤벨로 수행하는 벤치프레스 운동입니다. 초급 보다는 중급 이상의 난이도를 갖고있는<br />
+                            벤치프레스 운동을, 덤벨을 통해서 하게 되면 무게는 가벼워지지만 컨트롤은 더 힘들어진답니다.<br />
+                            그래서 초보 운동인에게는 추천드리지 않습니다.<br />
+                            섬세하고 다양한 자극을 원하는분들께 추천하는 운동입니다.
                             <br />
-                            허리를 굽히는 것도 괜찮은 자세입니다. <br/>
+                            <br />
+                            덤벨은 가로로 놓이게 잡아주고 팔을 굽히면서 덤벨을 가슴 깊이 끌어 당겨 줍니다.<br />
+                            가슴이 확실하게 스트레칭 하는것처럼 펴지는 느낌이 날때까지 덤벨을 당겨주는데요, <br />
+                            그렇다고 너무 무리하게 팔을 굽혀 내리면 부담이 갈수도 있으니 적당히 평행이 되는 정도로만! 허리는 아시다시피 아치형이 되는게 정상입니다
 
-                            한 쪽 발을 앞으로 내밀어 균형을 맞추는 것도 좋습니다.<br/>
-
-                            자세는 개인이 편하신대로 하시되<br/>
-
-                            가슴에 충분한 자극이 될 수 있도록 연습하시는 것이 좋습니다.<br/>
 
 
                         </div>

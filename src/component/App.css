@@ -2,64 +2,79 @@
 .nav-items {
   list-style: none;
   margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 10px;
 }
-
+/*{상단 글자 위치}*/
 .nav-item {
   display: inline-block;
-  height: 80px;
-  padding: 0 100px;
+  padding: 0 65px;
   text-align: center;
-  min-width: 80px;
-  margin: 0 30px;
-  line-height: 80px;
+  margin: 0 15px;
+  margin-top: 5px;
+  
 }
 
+.Header{
+ width: 100%;
+ height: 100%;
+ position: 'relative'
+
+}
+
+/*{상단 버튼 위치}*/
+.nav-item-m {
+  position: absolute;
+  top: 0px;
+  right: 100px;
+ 
+}
+
+.nav-item-n {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  
+}
+
+
+
+/*{상단 폰트 크기}*/
 .nav-item>a {
-  font-size: large;
+  font-size: 25px;
   text-decoration: none;
   color: darkgray;
-}
-
-.nav-item1 {
-  display: inline-block;
-  height: 80px;
-  padding: 0 100px;
-  text-align: right;
-  min-width: 80px;
-  margin: 0 30px;
-  line-height: 80px;
+  width: auto;
+  height: auto;
 }
 
 /* 메인 페이지 CSS*/
 .carousel {/* 첫번째 사진 */
-  width: 2525px;
-  height: 500px;
-  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+
 }
 
 .mainplayer {
   /*커뮤니티 영상*/
-  position: absolute;
-  top: 170%;
-  line-height: 1.95;
   text-align: center;
+
 }
 
 .player_text {
   /*커뮤니티 영상 소개*/
-  position: absolute;
-  top: 175%;
-  font-size: 30px;
-  line-height: 1.95;
+  font-size: 20px;
   color: black;
-  text-align: center;
-  padding-left: 1450px;
+ margin-right: 145px;
+ margin-top: 45%;
 }
 
 .ad_box {
   /*광고내용*/
   position: absolute;
-  top: 260%;
+  top: 230%;
   padding-left: 10%;
   margin-left: auto;
   align-items: left;
@@ -68,7 +83,7 @@
 .ad_box1 {
   /*광고내용*/
   position: absolute;
-  top: 260%;
+  top: 230%;
   padding-left: 10%;
   align-items: center;
   margin-inline: 30%;
@@ -77,57 +92,106 @@
 .ad_box2 {
   /*광고내용*/
   position: absolute;
-  top: 260%;
+  top: 230%;
   padding-left: 10%;
   align-items: center;
   margin-inline: 61%;
 
 }
 
-.modal-content {
-  height: 800px;
-  width: 800px;
-  top: 20%;
-}
-
 .learning1 {
   position: absolute;
   top: 10%;
-  left: 0%;
+  left: 10%;
+  filter: brightness(0.5);
+}
+.learning1:hover{
+  position: absolute;
+  top: 11%;
+  left: 11%;
+  width: 500px;
+  filter: brightness(1);
+  transition: 1s;
 }
 
 .learning2 {
   position: absolute;
   top: 10%;
-  left: 35%;
+  left: 40%;
+  filter: brightness(0.5);
+}
+
+.learning2:hover{
+  position: absolute;
+  top: 11%;
+  left: 41%;
+  filter: brightness(1);
+  transition: 1s;
 }
 
 .learning3 {
   position: absolute;
   top: 10%;
   left: 70%;
+  filter: brightness(0.5);
+}
+
+.learning3:hover{
+  position: absolute;
+  top: 11%;
+  left: 71%;
+  filter: brightness(1);
+  transition: 1s;
 }
 
 .learning4 {
   position: absolute;
-  top: 70%;
-  left: 0%;
+  top: 75%;
+  left: 10%;
+  filter: brightness(0.5);
 
+}
+
+
+.learning4:hover {
+  position: absolute;
+  top: 76%;
+  left: 11%;
+  filter: brightness(1);
+  transition: 1s;
 }
 
 
 .learning5 {
   position: absolute;
-  top: 70%;
-  left: 35%;
+  top: 75%;
+  left: 40%;
+  filter: brightness(0.5);
+
+}
+
+.learning5:hover {
+  position: absolute;
+  top: 76%;
+  left: 41%;
+  filter: brightness(1);
+  transition: 1s;
 }
 
 .learning6 {
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: 70%;
+  filter: brightness(0.5);
 }
 
+.learning6:hover {
+  position: absolute;
+  top: 76%;
+  left: 71%;
+  filter: brightness(1);
+  transition: 1s;
+}
 /*헬쓰 러닝 페이지 CSS*/
 
 .hl_main1 {
@@ -164,22 +228,87 @@
 .hl_main3 {
   /*헬쓰러닝 운동자세 설명*/
   position: absolute;
-  top: 120%;
+  top: 140%;
   font-size: 17px;
   line-height: 1.95;
   color: black;
   left: 25%;
  
 }
+.side_bar{
+  
+  font-size: 25px;
+  color: darkgray;
+  line-height: 20px;
+  font-weight: 900;
+}
 .side_bar1{
   font-size: 25px;
   color: darkgray;
-  text-decoration: underline;
   line-height: 50px;
+  font-weight: 900;
 }
 .side_bar2{
   font-size: 20px;
-  color: burlywood;
+  color: gray;
   line-height: 50px;
   text-decoration: none;
+  font-weight: 700;
+}
+.bottom{
+  position:fixed;
+  right:0;
+  bottom:0
+}
+
+.Toast {
+width: 3500px;  
+height: 2000px;
+}
+
+.pagenation {
+  display: block;
+  text-align: center;
+}
+
+.pagenation >li >a{
+  float: none;
+    margin-left: -5px;
+}
+
+
+.boardbutton {
+  width: 40%;
+  margin-top: 1%;
+  margin-left: 30%;
+  
+}
+
+.Detail {
+  width: 100%;
+  max-width: 1120px;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.Toast {
+  width: 100%;
+  max-width: 1120px;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+
+}
+.detailbutton{
+  font-size: 25px;
+  text-decoration: none;
+  color: darkgray;
+}
+
+.Main_name{
+
+  color: darkgray;
+
+
 }
